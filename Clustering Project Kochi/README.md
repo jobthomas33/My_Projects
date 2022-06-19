@@ -1,7 +1,5 @@
-# Coursera_Capstone
-Coursera Capstone Project in IBM Data Scince Professional Certificate. 
-The objective of this  project was to analyze and select the best locations in the city of
-Kochi, Kerala, India to open a new café. Using data science methodology and machine learning
-techniques like clustering, this project aims to provide solutions to answer the business question:
-In the city of Kochi, Kerala, India, if a property developer is looking to open a new café, where
+# Clustering Project
+This project was completed as part of IBM Data Scince Professional Certificate and was peer reviewed. The objective of this  project was to analyze and select the best locations in the city of Kochi, India to open a new cafe. Using data science methodology and machine learning techniques like clustering, this project aims to provide solutions to answer the business question:In the city of Kochi, Kerala, India, if a property developer is looking to open a new café, where
 would you recommend that they open it? 
+
+The location information was scraped from wikipedia using beautifulsoup and coordinates was obtained using geocoder in python. Foursquare API was used to get the venue information based on coordinates. Data structures in python was used to clean up the information. One hot encoding was performed and only Cafe's were selected for clustering. K-Means clustering was implemented and the clusters were displayed in a geographical map using folium package in python. Clusters of cafe based on geographical location was categorized as 0- Hign number of cafe, 1- Moderate number of cafe and 2- high number of cafe. Based on the cluster and the accessibility of location, the idela location to start a cafe in Kochi can be determined.
