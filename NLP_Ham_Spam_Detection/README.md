@@ -1,4 +1,4 @@
-# Ham or Spam detection of emails usinf Natural Language Processing
+# Ham or Spam detection of emails using Natural Language Processing
 The dataset used for this project is the Enron email dataset. http://www.aueb.gr/users/ion/data/enron-spam/ . The dataset is a 
 collection of public domain emails from the Enron corporation. It consisted of 5172 emails. The emails have been manually classified as spam and non-spam. 
 The primary goal of this project is to create a supervised classification pipeline to classify emails as spam or non-spam from the training data.
